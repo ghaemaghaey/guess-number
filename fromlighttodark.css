@@ -1,0 +1,66 @@
+.btn.dark{
+    transition: ease 1s;
+    color: white;
+    background-color: #666;
+    border-color: #555555;
+    border-radius: 5px;
+    font-size: xx-large;
+}
+.btn.dark:active, .btn.dark:focus{
+    outline: 0;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.btn.light:focus{
+    outline: 0;
+}
+.btn.light{
+    transition: ease;
+    color: #2b2a2afb;
+    background-color: whitesmoke;
+    transition: ease 1s;
+    border-color: #555555;
+    font-size: xx-large;    
+}
+.body.light{
+    transition: ease 1s;
+    background-color: whitesmoke;
+    color: #2b2a2afb;
+}
+.writed.light{
+    transition: ease 1s;
+    color: #2b2a2afb;
+}
+.writed.dark{
+    transition: ease 1s;
+    color:white ;
+
+}
+.body.dark{
+    transition: ease 1s;
+    background-color: #2b2a2afb;
+    color: rgb(212, 203,203);
+}
+#change-theme{
+    border-radius: 100px;
+}
+.input.light{
+    font-weight: bolder;
+    transition: all 2s;
+    background-color: white;
+    color: #666;
+}
+.input.dark{
+    font-weight: bolder;
+    transition: all 2s;
+    background-color: #666;
+    color: rgb(82, 165, 168);
+}
+#result{
+    text-align: center;
+}
